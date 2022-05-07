@@ -39,4 +39,5 @@ public class Metod {
         System.out.println(str);
         System.out.println(str);
     }
+
 }

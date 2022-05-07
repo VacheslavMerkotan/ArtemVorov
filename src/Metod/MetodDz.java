@@ -16,24 +16,55 @@ public class MetodDz {
 
         int result = sum(20,30);
         System.out.println(result);
+
         int result1 = multy(20,30);
         System.out.println(result1);
+
         int result2 = subt(20,30);
         System.out.println(result2);
 
+        double result3 = div(20,9);
+        System.out.println(result3);
+
+        double result4 = convert(159, 1.06);
+        System.out.println(result4);
+
+        double result5 = procent(49987, 100, 45);
+        System.out.println(result5);
+
+        str("Hallo");
 
     }
     public static int sum(int num1, int num2) {
-        int result = (num1 + num2);
-        return result;
+        //int result = (num1 + num2);
+        return num1 + num2;
     }
     public static int multy(int num1, int num2) {
-        int result1 = (num1 * num2);
-        return result1;
+       //int result1 = (num1 * num2);
+        return num1 * num2;
     }
     public static int subt(int num1, int num2) {
-        int result2 = (num1 - num2);
-        return result2;
+        //int result2 = (num1 - num2);
+        return num1 - num2;
+    }
+    public static double div(double num1, double num2) {
+        //double result3 = (num1 / num2);
+        return num1 / num2;
+    }
+    public static double convert(double eur, double usd) {
+        //double result4 = (eur * usd);
+        return eur * usd;
+    }
+    public static double procent(double d1, double d2, double d3) {
+        //double result5 = ((d1 / d2) * d3 + d1);
+        return ((d1 / d2 * d3) + d1);
+    }
+    public static void str(String str) {
+        System.out.println(str);
+        System.out.println(str);
+        System.out.println(str);
+        System.out.println(str);
+
     }
 
 
