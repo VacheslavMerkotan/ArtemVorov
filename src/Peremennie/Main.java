@@ -10,10 +10,15 @@ public class Main {
         long l = 3547899003567L;//Long
         boolean bool = false;//Boolean
         float f = 23.5F;//Float
-        double d = 23.67788876554;//Double
-        String str = "25";
+        double d = 23.6788876554;//Double
+        String str = "276";
         int num = Integer.parseInt(str);
-        System.out.println(num * 2);
+        System.out.println(num);
+        System.out.println(num);
+        System.out.println(num);
+        System.out.println(num);
+        System.out.println(num);
+        System.out.println(num);
 
 
 
